@@ -1,0 +1,31 @@
+/* stylizacja linków: (nieodwiedzony) a:link, a:visited, a:hover */
+/* kodowanie znaku konca liniii nie ma istotnego znaczenia */
+
+body
+{
+	background-color: gray;
+	font-family: Verdana;
+	font-size: 20px;
+	color: white;
+}
+
+h1
+{
+	font-size: 48px;
+	color: red !important;
+}
+
+a:link
+{
+	color: yellow;
+}
+
+a:visited
+{
+	color: yellow;
+}
+
+a:hover
+{
+	color: red;
+}

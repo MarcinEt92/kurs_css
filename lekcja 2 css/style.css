@@ -1,0 +1,142 @@
+/* div#container - tak bysmy napisali gdyby byly na styronie jeszcz inne elementy o id container, samo #container oznacza że wszystkie elementy o tym id bedą miały przypisane cechy */
+/* sam zapis margin oznacza margines z każdej strony */
+/* serif to zakonczenia liter w czcionce, sans-serif to brak tych zakonczen   */
+/* border-right: 2px solid #444444 - podaje po spacji 3 parametry grubosc linii, styl, kolor - linia oddzielajaca opcje */
+/* .option:hover - co sie stanie po najechaniu (cursor: pointer; to łapka)*/
+/* opacity: 0.8; - to jest nieprzezroczystosc 80% */
+/* różnica między <div> i <span> - span nie jest elementem blokowym chyba że ot ustawimy, div to element blokowy, słuzy do grupowania elementów, obrazków, tekstu, bez naruszania struktury strony nowym div'em */
+body
+{
+	background-color: #404040;
+	font-family: 'Lato', sans-serif;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#logo
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 44px;
+	letter-spacing: 3px;
+	font-weight: 900;
+}
+
+#menu
+{
+	background-color: #303030;
+	margin-top: 20px;
+	color: #ffffff;
+	padding: 10px;
+}
+
+#topbar
+{
+	background-color: #128870;
+	color: white;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 25px;
+	height: 170px;
+}
+
+#topbarL
+{
+	float: left;
+	padding: 20px;
+	width: 138px;
+	text-align: center;
+	border-right: 2px dotted #cccccc;
+}
+
+#topbarR
+{
+	float: left;
+	padding: 20px;
+	width: 760px;
+	font-size: 16px;
+	text-align: justify;
+}
+
+#sidebar
+{
+	float: left;
+	width: 148px;
+	min-height: 570px;
+	padding: 20px;
+	background-color: #aaaaaa;
+	text-align: center;
+	font-size: 18px;
+	border-right: 2px dotted #666666;
+}
+
+#content
+{
+	float: left;
+	padding: 40px;
+	width: 730px;
+	background-color: #dfdfdf;
+	min-height: 530px;
+	
+}
+
+.option
+{
+	opacity: 0.8;
+	float: left;
+	min-width: 50px;
+	height: 25px;
+	font-size: 18px;
+	padding: 10px;
+	border-right: 2px dotted #555555
+}
+
+.option:hover
+{
+	background-color: #000000;
+	cursor: pointer;
+}
+
+.optionL
+{
+	font-size: 18px;
+	height: 25px;
+	padding: 10px;
+	border-bottom: 2px dotted #444444;
+}
+
+.optionL:hover
+{
+	background-color: #128870;
+	color: white;
+	cursor: pointer;
+}
+
+#footer
+{
+	clear: both;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	height: 20px;
+}
+
+.bigtitle
+{
+	font-size: 26px;
+	font-weight: 900;
+	letter-spacing: 2px;
+}
+
+.dottedline
+{
+	height: 5px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-bottom: 2px dotted black
+}

@@ -1,0 +1,90 @@
+<!-- a - hiperłącze -->
+<!-- href - adres pod który ma prowadzić link, href to atrybut, atrybuty są w środku znacznika -->
+<!-- <img width="500" height="420" src="homer.jpg" /> uzywamy sciezek wzglednych-->
+<!-- w head jest informacja o kodowaniu znakow, jezyk, tytul i opis w wyszukiwarce, podpiete pliki css i JS, czcionki google, meta charset zawiera info o sposobie kodowania -->
+<!-- w sekcji body wszystko co widać: tekst, obrazy, hiperłącza, pola edycyjne, przyciski, listy, checkbox -->
+<!-- h1 to nagłówek, od h1 do h6, nagłowek automatycznie zakonczony jest przejsciem do nowej linii -->
+<!-- target="blank" powoduje otwarcie odnośnika w nowej karcie -->
+<!-- title="" to podpowiedź systemowa po najechaniu na link kursorem --> 
+<!-- id uzywamy jesli element pojawi sie tylko raz, a class uzywamy jak element pojawi sie na stronie wielokrotnie -->
+<!-- <div style="height: 5px;"></div> - inline wstawienie odstępu -->
+
+<!DOCTYPE HTML>
+<html lang=pl>
+<head>
+	<meta charset="utf-8" />
+	<title>Strona na temat Linuxa</title>
+	<meta name="description" content="Strona systemu Linux" />
+	<meta name="keywords" content="system, OS, kurs, Linux, ubuntu  " />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div id="container">
+	
+		<div id="logo">
+			Poznaj linuxa :)
+		</div>
+		
+		<div id="menu">
+			<div class="option">Strona główna</div> 
+			<div class="option">Dystrybucje</div> 
+			<div class="option">Instalacja</div> 
+			<div class="option">Polecenia</div>
+			<div class="option">Linus Tovards</div> 
+			<div class="option">O projekcie</div>
+			<div style="clear: both;"></div>
+		</div>
+		
+		<div id="topbar">
+			<div id="topbarL">
+				<img src="linux.png" />
+			</div>
+			<div id="topbarR">
+				<span class="bigtitle">O projekcie...</span><br/>
+				<div style="height: 5px;"></div>
+				"I’d like to say that I knew this would happen, that it’s all part of the plan for world domination"
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		
+		<div id="sidebar">
+			<div class="optionL">Strona główna</div>
+			<div class="optionL">Dystrybucje</div>
+			<div class="optionL">Instalacja</div>
+			<div class="optionL">Polecenia</div>
+			<div class="optionL">Linus Tovards</div>
+			<div class="optionL">O projekcie</div>
+		</div>
+		
+		<div id="content">
+			<span class="bigtitle">Dlaczego Linux</span>
+			
+			<div class="dottedline"></div>
+			
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tortor lorem, luctus congue risus ut, varius viverra massa. Integer rutrum metus non urna semper bibendum. Proin arcu ipsum, luctus id tortor id, ultricies euismod odio. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam blandit efficitur vehicula. Etiam blandit sed dui ac ultrices. Fusce volutpat egestas ultrices. Aliquam iaculis nunc velit, vitae condimentum lacus porttitor id. Quisque sollicitudin ut turpis nec elementum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis maximus tincidunt arcu, ac sollicitudin risus suscipit vel. Aliquam id neque imperdiet, viverra eros vel, aliquam neque. Suspendisse maximus lorem eu justo laoreet, a blandit nisi fringilla. Donec diam elit, finibus eu commodo at, cursus ac ligula. 
+			
+			<br /><br />
+			Aliquam ac sagittis dolor, dictum aliquam metus. Praesent rutrum fringilla sem ac dapibus. Phasellus suscipit eros quis molestie placerat. Praesent semper non nunc eu posuere. Aliquam porttitor blandit magna, vitae efficitur tellus tempor vitae. Sed ornare, sem eu posuere venenatis, velit sem malesuada orci, eu ultricies orci elit sed est. Proin porta congue velit, ut facilisis erat sollicitudin et. Fusce vitae interdum massa, at fringilla massa. Etiam feugiat egestas tincidunt. Phasellus et gravida leo. 
+			
+			<br /><br />
+			Duis imperdiet pretium feugiat. Curabitur quis odio varius, rhoncus sapien ac, cursus nisi. Ut id tristique orci. Nullam elementum elit urna, ac auctor nulla mollis nec. In nec lacus id urna fringilla egestas non in massa. Morbi laoreet eros eget sapien imperdiet, non feugiat ligula tincidunt. Praesent eu dui lorem. Aenean sed turpis odio. Fusce vitae gravida odio, sit amet egestas dui. Integer a consectetur dolor, quis sollicitudin risus. Aenean vitae porttitor enim.<br/>
+		</div>
+		<div id="footer"><br />
+			Poznaj linuxa - darmowy system operacyjny &copy Wszelkie prawa zastrzeżone
+		</div>
+		
+		
+	
+	
+	
+	</div>
+	
+	
+	
+</body>
+
+</html>
